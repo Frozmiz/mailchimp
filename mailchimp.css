@@ -1,0 +1,45 @@
+img.monito{
+    width: 60%;
+    padding-left: 30%;
+    padding-bottom: 40%;
+}
+
+.mono{
+    display: inline-block;
+}
+
+.derecha{
+    
+    display: inline-block;
+    height: 150px;
+    width: 500px;
+}
+
+.derechalista{
+   float: right;
+}
+
+.table{
+    width: 100%;
+}
+
+
+th, td {
+    width: 20%;
+    
+    font-family: "Latin Modern Roman";
+ }
+
+
+label.input{
+    padding: 30%;
+
+}
+
+li.blanco{
+    color: white;
+}
+
+label.password{
+    size: 15;
+}

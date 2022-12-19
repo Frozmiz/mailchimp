@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="mailchimp.css">
+        <title> mailchimp </title>
+
+    </head>
+
+    <body>
+
+        <div class="mono">
+            <img class="monito" src="monito.png" alt="monitos">
+        </div>
+
+        
+        <div class="derecha"> 
+
+            <h1> WELCOME TO MAILCHIMP</h1>
+
+            <p> 
+                Find your people. Engage your customers. Build your brand. Do it all with mailchimp's Marketing Platform. Alredy have an account?
+                <span class="login"> Log in </span>
+            </p>
+            <form action="/">
+                <label for="email">
+                    <h3>Email</h3>
+                    <input name="email" type="email">
+                </label>
+
+                <label for="user">
+                    <h3>Name</h3>
+                    <input name="username" type="text" minlength="2">
+                </label>
+
+                <label for="password">
+                    <h3> Password </h3>
+                    <input name="password" type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="8">
+                </label>
+
+                <div class="tabla">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>   
+                                    <ul>
+                                        <li> One lowercase character </li>
+                                        <li> One special character </li>
+                                        <li> One uppercase character </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li> 8 characters minimum </li>
+                                        <li> One number </li>
+                                        <li class="blanco"></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>   
+                </div>
+
+                <label for="sign">
+                    <input type="submit" value="Sign up"></input>
+                </label>
+
+                <label for="check">    
+                    <input type="checkbox"> I don't want to recieve emails about 
+                    new Mailchimp products, best practices, or special offers.
+                </label>
+
+                <footer>
+                    <p> By clicking the "Sign Up" button, you are creatinf a Mailchimp 
+                        account, and you agree to Mailchimp's 
+                        <span>Term of Use</span> and <span> Policy </span></p>
+                </footer>
+        
+
+            </form>                
+        </div>
+
+        
+
+    </body>
+</html>
